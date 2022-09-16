@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+.hader {
+  background-image: url("./ahmad-mohammed-6MafHMTYgxk-unsplash.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.wrapper {
+  width: 1000px;
+  height: 100%;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+}
+.menu-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 36px;
+}
+.menu-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 15px;
+}
+.menu-link:hover {
+  text-decoration-line: underline;
+}
+.hader-content {
+  margin-top: 20%;
+}
+.hader-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hader-link {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  display: block;
+  width: 190px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin: auto;
+}
+.hader-link:hover {
+  color: white;
+  background-color: black;
+  transition: 500ms;
+}
+.menu-two {
+  width: 550px;
+  height: 80%;
+  margin: auto;
+}
+.menu-two-title {
+  font-size: 60px;
+  margin-bottom: 40px;
+  display: block;
+  text-align: center;
+  margin-top: 220px;
+}
+.click {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 20px 0px 20px 0px;
+  margin: auto;
+  text-align: center;
+  width: 190px;
+  font-size: 20px;
+}
+.click:hover {
+  color: black;
+  background-color: white;
+  transition: 500ms;
+}
+.two-text {
+  font-size: 18px;
+  margin-bottom: 70px;
+  display: block;
+  text-align: center;
+}
+.projects {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: black;
+}
+.wraper {
+}
+.projects-title {
+  color: white;
+  font-size: 72px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.items-card {
+  width: 380px;
+}
+.photo-wrapper {
+  overflow: hidden;
+  height: 220px;
+}
+.card-photo {
+  width: 100%;
+}
+.card-text {
+  color: white;
+}
+.projects-items {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.projekts-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 20px 0px 20px 0px;
+  margin: auto;
+  text-align: center;
+  width: 190px;
+  font-size: 20px;
+}
+.projekts-link:hover {
+  color: white;
+  background-color: black;
+  transition: 500ms;
+}
